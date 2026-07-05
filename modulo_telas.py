@@ -3,8 +3,6 @@ from pathlib import Path
 
 # 1. IMPORTAÇÕES DE LÓGICA
 import modulo_edilson
-
-# IMPORTAR OS MÓDULOS DE VOCÊS AQUI ABAIXO
 import modulo_rafael_martins
 import modulo_rafael_naves
 
@@ -20,7 +18,6 @@ def exibir_cabecalho(titulo: str):
 # ==========================================
 # PARTE: EDILSON
 # ==========================================
-
 
 def tela_criar_diretorio():
     exibir_cabecalho("Criar Diretório")
