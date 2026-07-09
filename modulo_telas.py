@@ -102,7 +102,7 @@ def tela_listar_arquivos():
 
 
 def tela_excluir_arquivo():
-    exibir_cabecalho("Excluir Arquivo - Rafael OC")
+    exibir_cabecalho("Excluir Arquivo")
     print("\033[33mDigite [V] para voltar.\033[0m\n")
 
     nome_arquivo = input("Nome do arquivo a ser excluído: ").strip()
@@ -163,7 +163,7 @@ def tela_ler_arquivo():
 
 
 def tela_renomear():
-    exibir_cabecalho("Renomear Arquivo/Diretório - Rafael OC")
+    exibir_cabecalho("Renomear Arquivo/Diretório")
     print("\033[33mDigite [V] para voltar.\033[0m\n")
 
     # Parâmetros livres para a função opcional de renomear
